@@ -8,8 +8,11 @@
   "includeFork": false,
   "theme": "dark.css",
   "types": [
-   "all"
+   "owner"
   ],
-  "linkedin": "yassine-messaoud"
+  "linkedin": null,
+  "twitter": null,
+  "medium": null,
+  "dribbble": null
  }
 ]
