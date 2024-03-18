@@ -16,7 +16,7 @@
     </div>
     <div id="profile">
       <div id="profile_img" style="background: url(https://avatars.githubusercontent.com/u/58108496?v=4) center;"></div>
-      <div id="username"><span style="display:none;">null</span><a href="https://github.com/Messaoud2Yassine">Yassine Messaoud</a></div>
+      <div id="username"><span style="display:none;">null</span><a href="https://github.com/Messaoud2Yassine">@Messaoud2Yassine</a></div>
       <div id="userbio" style="display: none;">undefined</div>
       <div id="about">
                 <span style="display:none;"><i class="fas fa-users"></i> &nbsp; null</span>
@@ -40,23 +40,10 @@
                         <section>
                             <div class="section_title">Java-class-Design</div>
                             <div class="about_section">
-                            <span style="display:block;">Un exemple simple décrivant une implémentation de la couche service en Java</span>
+                            <span style="display:block;">Explaining the power of Java class Design through SOLID principles</span>
                             </div>
                             <div class="bottom_section">
                                 <span style="display:inline-block;"><i class="fas fa-code"></i>&nbsp; Java</span>
-                                <span><i class="fas fa-star"></i>&nbsp; 0</span>
-                                <span><i class="fas fa-code-branch"></i>&nbsp; 0</span>
-                            </div>
-                        </section>
-                        </a>
-                        <a href="https://github.com/Messaoud2Yassine/MyPersonal_Project" target="_blank">
-                        <section>
-                            <div class="section_title">MyPersonal_Project</div>
-                            <div class="about_section">
-                            <span style="display:none;">undefined</span>
-                            </div>
-                            <div class="bottom_section">
-                                <span style="display:inline-block;"><i class="fas fa-code"></i>&nbsp; HTML</span>
                                 <span><i class="fas fa-star"></i>&nbsp; 0</span>
                                 <span><i class="fas fa-code-branch"></i>&nbsp; 0</span>
                             </div>
@@ -69,7 +56,7 @@
                             <span style="display:none;">undefined</span>
                             </div>
                             <div class="bottom_section">
-                                <span style="display:none;"><i class="fas fa-code"></i>&nbsp; null</span>
+                                <span style="display:inline-block;"><i class="fas fa-code"></i>&nbsp; HTML</span>
                                 <span><i class="fas fa-star"></i>&nbsp; 0</span>
                                 <span><i class="fas fa-code-branch"></i>&nbsp; 0</span>
                             </div>
@@ -83,6 +70,8 @@
       <div id="blog_section">
         <h1>Blog.</h1>
         <div id="blogs"></div>
+      </div>
+      <div id="footer">
       </div>
     </div>
     <script type="text/javascript">
@@ -103,7 +92,7 @@
         }
         for (var i = 0; i < blog.length; i++) {
           $("#blogs").append(`
-            <a href="./blog/${blog[i].url_title}/" target="_self">
+            <a href="./blog/${blog[i].url_title}/" target="_blank">
                 <section>
                     <img src="./blog/${blog[i].url_title}/${blog[i].top_image}">
                     <div class="blog_container">
